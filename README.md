@@ -5,7 +5,7 @@ This project is about SafeMoon and overcoming the vulnerabilities of the safeMoo
 
 Try running some of the following tasks:
 Install the packages
-
+```shell
 npm install 
 
 
@@ -14,7 +14,16 @@ npx hardhat accounts
 npx hardhat compile
 npx hardhat clean
 npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
 ```
+Inorder to deploy the scripts to the local Blockchain network run
+```shell
+npx hardhat node
+```
+Deploy the scripts to the localhost
+
+```shell
+
+npx hardhat run --network localhost scripts/deploy.js
+```
+
+
