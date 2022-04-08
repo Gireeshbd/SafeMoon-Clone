@@ -1,6 +1,7 @@
-# Basic Sample Hardhat Project
+SAFEMOON CLONE
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+
+This project is about SafeMoon and overcoming the vulnerabilities of the safeMoon by removing the owner from the excluded of fee
 
 Try running some of the following tasks:
 Install the packages
